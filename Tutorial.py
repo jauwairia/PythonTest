@@ -44,3 +44,36 @@ print('I want to say that', single_line_string, multiple_line_string)
 # concatenating the strings together
 print(single_line_string + multiple_line_string)
 print(" %s %s %s " % ("I want to say that", single_line_string, multiple_line_string))
+
+#Lists
+
+New_list = ['Apples', 'Orange', 'Bananas']
+print(New_list)
+
+'''
+There are a bunch of functions you can apply on lists, use index to represent a particular item in the list; replace, delete, remove, sort, append items; print
+min and max of the list; add two lists to combine them into one; make a list of lists, strings, numbers, etc
+'''
+
+#Tuples
+
+New_Tuple = (1,45, 23, 7, 9)
+print(New_Tuple)
+
+'''
+Similarly, you use index to represent an item, min, max BUT the main difference between a list and tuple is you cannot change
+a tuple. You can convert it into a list to make changes and then convert back to a tuple
+'''
+
+#Dictionaries
+
+New_dictionary= {'Actor': 'Michael',
+		'Director': 'David',
+		'Actress': 'Lisa'}
+
+print(New_dictionary)
+
+'''
+Dictionaries have values - each of them with their unique key (Actor, Director, Actress are keys). Dictionaries are very similar to lists except that 
+you cannot add two dictionaries - thats the main difference
+'''
